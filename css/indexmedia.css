@@ -1,0 +1,79 @@
+@media screen and (max-width: 480px){
+	.logo{
+		font-size: 1.5em;
+		margin-left: 5%;
+	}
+	.list{
+		visibility: hidden;
+	}
+	.topnav{
+		border: 0px solid red;
+		height: 14vh;
+	}
+	.menu{
+		position: absolute;
+		visibility: visible;
+		border: 0px solid red;
+		width: 62%;
+		text-align: right;
+	}
+	.container{
+		display: block;
+		height: 80vh;
+	}
+	.main-box1{
+	    height: 50%;
+		width: 100%;
+	}
+	.main-box2{
+	    height: 50%;
+		width: 100%;
+	}
+	.profile{
+		height: 100%;
+	}
+	h2{
+		font-size: 30px;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		padding-top: 20px;
+	}
+	h3{
+		font-size: 14px;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		padding-top: 20px;
+	}
+	.wrapper .dynamic-txts{
+		margin: 0;
+		margin: auto;
+		border: 0px solid red;
+	}
+	.dynamic-txts li{
+		text-align: center;
+	}
+	.title{
+		font-size: 1.2em;
+		margin-left: 0;
+	}
+	.description{
+		font-size: 1em;
+		color: #f4f4f4;
+	    margin-left: 0;
+	    margin-right: 0;
+	    text-align: center;
+	}
+	.top-foot{
+	    padding-top: 10%;
+    }
+    .wanna{
+    	margin-left: 0;
+    	text-align: center;
+    }
+    .wanna2{
+    	margin-left: 0;
+    	text-align: center;
+    }
+}

@@ -1,0 +1,143 @@
+*{
+	padding: 0;
+	margin: 0;
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #2E3047;
+}
+.topnav {
+    background-color: #2E3047;
+    overflow: hidden;
+    font-family: poppins;
+    line-height: 10vh;
+}
+.topnav a {
+  float: left;
+  color: #3BBA9C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav-right {
+  float: right;
+  margin-right: 5%;
+  line-height: 10vh;
+}
+.logo{
+	font-size: 1.5em;
+	margin-left: 10%;
+	cursor: context-menu;
+	opacity: 0;
+	animation: fade .2s ease-in forwards;
+	animation-delay: 1s; 
+}
+
+.list{
+	font-size: 1em;
+	transition: .3s;
+	opacity: 0;
+	animation: fade .3s ease-in forwards;
+	animation-delay: 1s; 
+}
+.list:hover{
+	color: #f2f2f2;
+}
+.menu{
+	visibility: hidden;
+	opacity: 0;
+	animation: fade .5s ease-in forwards;
+	animation-delay: .5s; 
+}
+#strong{
+	color: #fff;
+	text-decoration: underline;
+	text-decoration-color: #3BBA9C;
+}
+@keyframes fade {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.container{
+	height: auto;
+	width: 80%;
+	margin: auto;
+	border: 0px solid red;
+	animation: fadeup 1s ease-in forwards;
+	opacity: 0; 
+	animation-delay: 1.2s;
+}
+@keyframes fadeup {
+	from{
+		margin-top: 50vh;
+	}
+	to{
+		margin-top: 0;
+		opacity: 1;
+	}
+}
+.title-text{
+	font-family: poppins;
+	font-size: 3rem;
+	letter-spacing: .2rem;
+	color: #3BBA9C;
+    font-weight: bolder;
+    margin-top: 10vh;
+    text-transform: uppercase;
+}
+.description-text{
+	font-family: poppins;
+	font-size: 1.5rem;
+	color: #fff;
+}
+h1{
+	font-family: poppins;
+	font-weight: 500;
+	color: #3BBA9C;
+	font-size: 1.8em;
+	margin-top: 10vh;
+}
+.p-box{
+	height: 50vh;
+	width: 70%;
+	margin: auto;
+	border: 0px solid red;
+	margin-top: 50px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.p-image:hover{
+	height: 120%;
+	width: 120%;
+}
+.p-image{
+	height: 100%;
+	width: 100%;
+	border-radius: 10px;
+	transition: 1s;
+}
+.number{
+	position: absolute;
+	padding: 20px;
+	color: #f4f4f4;
+	font-family: poppins;
+	font-weight: 500;
+}
+footer{
+	height: auto;
+	width: 90%;
+	margin: auto;
+	border-top: 3px solid #797ca3;
+	margin-top: 30px;
+}
+.footer-text{
+	font-family: poppins;
+	color: #fff;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}

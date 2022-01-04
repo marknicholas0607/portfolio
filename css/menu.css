@@ -1,0 +1,67 @@
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(18,19,28);
+  background-color: rgba(18,19,28, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  font-family: poppins;
+  font-weight: 500;
+  color: #3BBA9C;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 30px;
+}
+.active{
+  -webkit-animation: glow .3s ease-in-out infinite alternate;
+  -moz-animation: glow .3s ease-in-out infinite alternate;
+  animation: glow .3s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from{
+    text-shadow: 0 0 5px #3BBA9C, 0 0 10px #3BBA9C, 0 0 15px #e60073, 0 0 20px #3BBA9C, 0 0 25px #3BBA9C, 0 0 30px #3BBA9C, 0 0 35px #3BBA9C;
+  }
+  to{
+    text-shadow: 0 0 10px #3BBA9C, 0 0 15px #3BBA9C, 0 0 20px #3BBA9C, 0 0 25px #3BBA9C, 0 0 30px #3BBA9C, 0 0 35px #3BBA9C, 0 0 40px #3BBA9C;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}

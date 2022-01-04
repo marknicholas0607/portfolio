@@ -1,0 +1,262 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #2E3047;
+}
+.topnav {
+    background-color: #2E3047;
+    overflow: hidden;
+    font-family: poppins;
+    line-height: 10vh;
+}
+.topnav a {
+  float: left;
+  color: #3BBA9C;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav-right {
+  float: right;
+  margin-right: 5%;
+  line-height: 10vh;
+}
+.logo{
+	font-size: 1.5em;
+	margin-left: 10%;
+	cursor: context-menu;
+	opacity: 0;
+	animation: fade .2s ease-in forwards;
+	animation-delay: 1s; 
+}
+
+.list{
+	font-size: 1em;
+	transition: .3s;
+	opacity: 0;
+	animation: fade .3s ease-in forwards;
+	animation-delay: 1s; 
+}
+.list:hover{
+	color: #f2f2f2;
+}
+.menu{
+	visibility: hidden;
+	opacity: 0;
+	animation: fade .5s ease-in forwards;
+	animation-delay: .5s; 
+}
+#strong{
+	color: #fff;
+	text-decoration: underline;
+	text-decoration-color: #3BBA9C;
+}
+@keyframes fade {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.grid{
+	height: auto;
+	width: 80%;
+	border: 0px solid red;
+	margin: auto;
+	animation: fadeup 1s ease-in forwards;
+	opacity: 0; 
+	animation-delay: 1.2s;
+}
+@keyframes fadeup {
+	from{
+		margin-top: 50vh;
+	}
+	to{
+		margin-top: 0;
+		opacity: 1;
+	}
+}
+.grid1{
+	height: auto;
+	width: 100%;
+	border: 0px solid blue;
+}
+.semi-grid{
+	height: auto;
+	width: 100%;
+	border: 0px solid red;
+	margin: auto;
+	display: flex;
+	margin-top: 5vh;
+}
+.grid2{
+	height: auto;
+	width: 35%;
+	border: 0px solid blue;
+	order: 1;
+}
+.grid3{
+	height: auto;
+	width: 70%;
+	border: 0px solid blue;
+	order: 2;
+	margin-left: 5%;
+}
+.title-text{
+	font-family: poppins;
+	font-size: 3rem;
+	letter-spacing: .2rem;
+	color: #3BBA9C;
+    font-weight: bolder;
+    margin-top: 10vh;
+    text-transform: uppercase;
+}
+.description-text{
+	font-family: poppins;
+	font-size: 1.5rem;
+	color: #fff;
+}
+.semi-title{
+	font-family: poppins;
+	font-size: 1.3rem;
+	color: #3BBA9C;
+    font-weight: bolder;
+    margin-top: 5vh;
+}
+.semi-description{
+	font-family: poppins;
+	font-size: 1rem;
+	color: #fff;
+    margin-top: 1vh;
+}
+.last-text{
+	font-family: poppins;
+	font-size: 1.1rem;
+	color: #fff;
+    margin-top: 5vh;
+}
+.stack{
+	height: auto;
+	width: 30%;
+	background-color: #797ca3;
+	border-radius: 8px;
+	margin-top: 6vh;
+}
+.stack-text{
+	padding: 5px;
+	text-align: center;
+	font-family: poppins;
+	font-weight: 500;
+	margin-top: 3vh;
+}
+.stack-grid{
+	display: flex;
+}
+.stack1{
+	height: 80px;
+	width: 80px;
+	border: 0px solid red;
+	background-color: #fff;
+	border-radius: 7px;
+	margin-top: 20px;
+}
+.stack2{
+	height: 80px;
+	width: 80px;
+	border: 0px solid red;
+	background-color: #fff;
+	border-radius: 7px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.stack3{
+	height: 80px;
+	width: 80px;
+	border: 0px solid red;
+	background-color: #fff;
+	border-radius: 7px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.stack4{
+	height: 80px;
+	width: 80px;
+	border: 0px solid red;
+	background-color: #fff;
+	border-radius: 7px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.stack5{
+	height: 80px;
+	width: 80px;
+	border: 0px solid red;
+	background-color: #fff;
+	border-radius: 7px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.testimonials{
+	height: auto;
+	width: 100%;
+	background-color: #f4f4f4;
+	border-radius: 7px 7px 0px 0px;
+}
+.nav-test{
+	height: auto;
+	width: 100%;
+	border: 0px solid red;
+	display: flex;
+	margin-top: 20px;
+	line-height: 1;
+	overflow: hidden;
+}
+.profile{
+	height: 50px;
+	width: 50px;
+	border: 0px solid red;
+	border-radius: 50%;
+	margin: 10px;
+	overflow: hidden;
+}
+.profile-name{
+	font-family: poppins;
+	font-size: 1.1rem;
+	font-weight: 500;
+	line-height: 60px;
+}
+.profile-info{
+	font-family: poppins;
+	font-size: 1rem;
+	line-height: 60px;
+	color: #aaaaaa;
+}
+.comment-box{
+	height: auto;
+	width: 100%;
+	background-color: #f4f4f4;
+	border-radius: 0px 0px 7px 7px;
+}
+.comment{
+	padding-top: 20px;
+	font-family: poppins;
+	font-size: .9rem;
+	padding: 20px;
+}
+footer{
+	height: auto;
+	width: 90%;
+	margin: auto;
+	border-top: 3px solid #797ca3;
+	margin-top: 30px;
+}
+.footer-text{
+	font-family: poppins;
+	color: #fff;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}

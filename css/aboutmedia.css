@@ -1,0 +1,58 @@
+@media screen and (max-width: 600px){
+	.logo{
+		font-size: 1.5em;
+		margin-left: 5%;
+	}
+	.list{
+		visibility: hidden;
+	}
+	.topnav{
+		border: 0px solid red;
+		height: 14vh;
+	}
+	.menu{
+		position: absolute;
+		visibility: visible;
+		border: 0px solid red;
+		width: 62%;
+		text-align: right;
+	}
+	.grid{
+		width: 90%;
+	}
+	.semi-grid{
+		display: block;
+		width: 100%;
+	}
+	.grid2{
+	    height: 50%;
+	    width: auto;
+	    margin: auto;
+    }
+    .grid3{
+	    height: 50%;
+	    width: auto;
+	    margin: auto;
+    }
+    .stack{
+    	width: 60%;
+    }
+    .stack-grid{
+    	display: flex;
+    }
+    .stack1{
+    	height: 60px;
+    }
+    .stack2{
+    	height: 60px;
+    }
+    .stack3{
+    	height: 60px;
+    }
+    .stack4{
+    	height: 60px;
+    }
+    .stack5{
+    	height: 60px;
+    }
+}

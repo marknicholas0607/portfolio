@@ -1,0 +1,23 @@
+@media screen and (max-width: 600px){
+	.logo{
+		font-size: 1.5em;
+		margin-left: 5%;
+	}
+	.list{
+		visibility: hidden;
+	}
+	.topnav{
+		border: 0px solid red;
+		height: 14vh;
+	}
+	.menu{
+		position: absolute;
+		visibility: visible;
+		border: 0px solid red;
+		width: 62%;
+		text-align: right;
+	}
+	.container{
+	    width: 90%;
+    }
+}
